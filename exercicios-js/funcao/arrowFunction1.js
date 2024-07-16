@@ -16,3 +16,7 @@ let ola = function() {
 ola = () => 'ola'
 ola = _ => 'ola' // possui um parametro
 console.log(ola())
+
+teste = (a, b) => (a + b) * 3
+
+console.log(teste(2,3))
