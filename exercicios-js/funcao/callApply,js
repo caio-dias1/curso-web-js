@@ -21,3 +21,12 @@ console.log(getPreco.apply(carro))
 
 console.log(getPreco.call(carro, 0.17, '$'))
 console.log(getPreco.apply(carro, [0.17, '$']))
+
+const produto2 = {
+    nome: 'Celular',
+    preco: 1990,
+    desc: 0.16,
+    imposto: 0.5
+}
+
+console.log(getPreco.call(produto2))
