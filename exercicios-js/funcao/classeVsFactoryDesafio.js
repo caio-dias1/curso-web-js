@@ -8,16 +8,15 @@
     }
 } */
 
-const Pessoa = nome => {
-    return {
-       fale: () => {console.log(`Meu nome é ${nome}`)}
+function Pessoa(nome) {
+        this.nome = nome
+
+        this.falar = function() {
+            console.log(`Meu nome eh ${this.nome}`)
     }
 }
 
-const p01 = Pessoa('Caio')
-p01.fale()
-
-const p02 = Pessoa('Antonia')
-p02.fale()
+const p1 = new Pessoa('CAio')
+p1.falar()
 
 
