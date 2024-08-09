@@ -7,6 +7,10 @@ console.log(typeof Object, typeof new Object)
 const obj2 = new Object
 console.log(obj2)
 
+obj2.nome = 'caio'
+obj2.profissao = 'programador'
+console.log(obj2)
+
 // funcoes construtoras
 function Produot(nome, preco, desc) {
     this.nome = nome
