@@ -27,7 +27,8 @@ class CicloFinanceiro {
 
 const salario = new Lancamento('salario', 40000)
 const contaDeLuz = new Lancamento('luz', -250)
+const dinheiroBet = new Lancamento('bet365', 20000)
 
 const contas = new CicloFinanceiro(8, 2024)
-contas.addLancamentos(salario, contaDeLuz)
+contas.addLancamentos(salario, contaDeLuz, dinheiroBet)
 console.log(contas.sumario())
