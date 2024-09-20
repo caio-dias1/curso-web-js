@@ -12,7 +12,7 @@ const resultado = produtos.filter(produtosCaros).filter(produtosFrageis)
 console.log(resultado)
 
 
-
+ 
 /* Minha resoluçao
 console.log(produtos.filter(function(p) {
     return p.fragil == true && p.preco > 500
